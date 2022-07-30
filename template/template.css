@@ -1,0 +1,40 @@
+body {
+	margin: 0px;
+}
+
+a {
+	text-decoration: none !important;
+}
+section{
+	min-height: 400px;
+}
+
+button {
+	margin: 0px 12px 12px 12px;
+	padding: 12px;
+	display: inline-block;
+	color: white;
+	border: none;
+	cursor: pointer;
+	background-color: #6495ED;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+footer{
+	position: relative;
+	width:100%;
+	height: 80px;
+	text-align: center;
+	color: grey;
+	background-color: #f2f2f2;
+}
+
+#myInput{
+	width: 98%;
+	margin: 0px 10px 10px 10px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+}

@@ -1,0 +1,38 @@
+@page {
+		size: A5;	
+	}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+	@page {
+		size: 5.8in 8.3in;	
+	}
+	.sizehalf{
+		font-size: 55% !important;
+	}
+	article{
+		
+	}
+}
+
+table {
+	border-collapse: collapse;
+	width: 98%;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+	padding: 12px;
+}
+
+table, th, td {
+	margin:10px;
+	border: 1px solid black;
+}
+
